@@ -1,4 +1,4 @@
-﻿namespace FirstProject
+﻿namespace Stock.WinFormsUI
 {
     partial class Form1
     {
@@ -28,33 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tbxDeneme = new System.Windows.Forms.TextBox();
-            this.SuspendLayout();
-            // 
-            // tbxDeneme
-            // 
-            this.tbxDeneme.Location = new System.Drawing.Point(54, 41);
-            this.tbxDeneme.Name = "tbxDeneme";
-            this.tbxDeneme.Size = new System.Drawing.Size(100, 20);
-            this.tbxDeneme.TabIndex = 0;
-            // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.tbxDeneme);
-            this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox tbxDeneme;
     }
 }
 

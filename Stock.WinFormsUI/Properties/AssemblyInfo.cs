@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("FirstProject")]
+[assembly: AssemblyTitle("Stock.WinFormsUI")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("FirstProject")]
+[assembly: AssemblyProduct("Stock.WinFormsUI")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8a9b0e5f-3146-4ea5-b63d-2545623f51c9")]
+[assembly: Guid("265228d6-c8a9-41e1-82ab-263c6ddce93e")]
 
 // Version information for an assembly consists of the following four values:
 //

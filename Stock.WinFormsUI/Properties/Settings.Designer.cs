@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FirstProject.Properties
+namespace Stock.WinFormsUI.Properties
 {
 
 
