@@ -35,9 +35,9 @@
             // dgwProduct
             // 
             this.dgwProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgwProduct.Location = new System.Drawing.Point(14, 15);
+            this.dgwProduct.Location = new System.Drawing.Point(14, 268);
             this.dgwProduct.Name = "dgwProduct";
-            this.dgwProduct.Size = new System.Drawing.Size(769, 423);
+            this.dgwProduct.Size = new System.Drawing.Size(769, 170);
             this.dgwProduct.TabIndex = 0;
             // 
             // Form1
@@ -47,7 +47,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dgwProduct);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Ürünler";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgwProduct)).EndInit();
             this.ResumeLayout(false);
