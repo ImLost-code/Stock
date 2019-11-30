@@ -1,13 +1,14 @@
-﻿CREATE TABLE [dbo].[Products]
-(
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [Name] VARCHAR(50) NOT NULL, 
-    [Brand] VARCHAR(50) NULL, 
-    [Model] VARCHAR(50) NULL, 
-    [Type] INT NOT NULL, 
-    [WorkType] INT NOT NULL, 
-    [Warranty] INT NULL, 
-    [Price] FLOAT NULL, 
-    [CreatedDate] DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP, 
-    [UpdatedDate] DATETIME NULL
-)
+﻿CREATE TABLE [dbo].[Products] (
+    [Id]          INT          IDENTITY (1, 1) NOT NULL,
+    [Name]        VARCHAR (50) NOT NULL,
+    [Brand]       VARCHAR (50) NULL,
+    [Model]       VARCHAR (50) NULL,
+    [Type]        INT          NOT NULL,
+    [WorkType]    INT          NOT NULL,
+    [Warranty]    INT          NULL,
+    [Price]       DECIMAL   NULL,
+    [CreatedDate] DATETIME     DEFAULT (getdate()) NOT NULL,
+    [UpdatedDate] DATETIME     NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+

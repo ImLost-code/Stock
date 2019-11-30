@@ -41,11 +41,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Concrete\ProductManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstract\" />
-    <Folder Include="Concrete\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Stock.DataAccess\Stock.DataAccess.csproj">
+      <Project>{960589AF-38B1-42DB-A2EB-CAF17B70B856}</Project>
+      <Name>Stock.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stock.Entities\Stock.Entities.csproj">
+      <Project>{42DF0B38-EAA0-400A-92F9-EF7B378894A6}</Project>
+      <Name>Stock.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
