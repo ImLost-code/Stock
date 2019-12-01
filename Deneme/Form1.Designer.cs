@@ -1,4 +1,4 @@
-﻿namespace Stock.WinFormsUI
+﻿namespace Deneme
 {
     partial class Form1
     {
@@ -28,35 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgwProduct = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgwProduct)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // dgwProduct
+            // button1
             // 
-            this.dgwProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgwProduct.Location = new System.Drawing.Point(14, 268);
-            this.dgwProduct.Name = "dgwProduct";
-            this.dgwProduct.Size = new System.Drawing.Size(769, 170);
-            this.dgwProduct.TabIndex = 0;
+            this.button1.Location = new System.Drawing.Point(184, 122);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(419, 166);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "GİTHUB";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dgwProduct);
+            this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Ürünler";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgwProduct)).EndInit();
+            this.Text = "Form1";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgwProduct;
+        private System.Windows.Forms.Button button1;
     }
 }
 

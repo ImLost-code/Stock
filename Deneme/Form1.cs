@@ -1,5 +1,4 @@
-﻿using Stock.Business.Concrete;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,19 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Stock.WinFormsUI
+namespace Deneme
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            ProductManager productManager = new ProductManager();
-            dgwProduct.DataSource = productManager.GetAll();
         }
     }
 }
