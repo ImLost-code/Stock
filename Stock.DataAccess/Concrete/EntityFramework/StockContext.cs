@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Stock.DataAccess.Concrete
+namespace Stock.DataAccess.Concrete.EntityFramework
 {
     public class StockContext:DbContext
     {

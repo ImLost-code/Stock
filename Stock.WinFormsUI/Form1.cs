@@ -1,4 +1,6 @@
 ﻿using Stock.Business.Concrete;
+using Stock.DataAccess.Concrete.EntityFramework;
+using Stock.DataAccess.Concrete.NHibernate;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,7 +22,7 @@ namespace Stock.WinFormsUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ProductManager productManager = new ProductManager();
+            ProductManager productManager = new ProductManager(new NhProductDal());
             dgwProduct.DataSource = productManager.GetAll();
         }
     }
